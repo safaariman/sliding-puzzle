@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <com.safaariman.slidingpuzzle.slidingpuzzle.tool.Chronometer
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="00:00:00"
+        android:textSize="@dimen/stop_watch_timer_text_size"
+        android:layout_margin="@dimen/stop_watch_timer_margin"
+        android:id="@+id/chronometer"
+        android:layout_gravity="center_horizontal" />
+
+    <GridView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:id="@+id/gridView"
+        android:layout_margin="0dp"
+        android:numColumns="3"
+        android:layout_gravity="center_horizontal"
+        android:verticalSpacing="2dp"
+        android:horizontalSpacing="2dp" />
+</LinearLayout>

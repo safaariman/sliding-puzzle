@@ -1,0 +1,12 @@
+<resources>
+    <string name="action_settings">Settings</string>
+
+    <string name="app_name">Sliding Puzzle</string>
+    <string name="play">Play</string>
+    <string name="highScores">High Scores</string>
+    <string name="exit">Exit</string>
+    <string name="x3">3 x 3</string>
+    <string name="x4">4 x 4</string>
+    <string name="x5">5 x 5</string>
+
+</resources>
